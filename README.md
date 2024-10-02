@@ -3,9 +3,9 @@ The 19-bit ALU (Arithmetic Logic Unit) designed here is a versatile component th
 Here is a detailed explanation of each component and operation:
 
 >Inputs and Outputs
-Input A (19 bits): One of the operands for ALU operations.
-Input B (19 bits): The second operand for ALU operations.
-Opcode (5 bits): The operation code (opcode) is used to select the specific operation the ALU needs to perform. The 5-bit opcode allows for up to 32 unique operations (2^5 = 32).
+Input A (19 bits): One of the operands for ALU operations,
+Input B (19 bits): The second operand for ALU operations,
+Opcode (5 bits): The operation code (opcode) is used to select the specific operation the ALU needs to perform. The 5-bit opcode allows for up to 32 unique operations (2^5 = 32),
 Output Result (19 bits): The result of the selected operation is output as a 19-bit value.
 
 >Memory
