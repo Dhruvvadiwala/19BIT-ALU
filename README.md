@@ -14,25 +14,25 @@ The ALU includes a small internal memory, which is a register file of 8 register
 >Opcode Functionality
 The ALU operation is selected using a 5-bit opcode, where each opcode corresponds to a specific operation. The result of the operation is provided on the 19-bit output result.
 
-Opcode	Operation
-00000	Addition
-00001	Subtraction
-00010	Multiplication
-00011	Division
-00100	Increment
-00101	Decrement
-00110	AND
-00111	OR
-01000	XOR
-01001	NOT
-01010	Logical Shift Left
-01011	Logical Shift Right
-01100	Arithmetic Shift Right
-01101	Rotate Left
-01110	Rotate Right
-10001	FFT
-10010	Encryption
-10011	Decryption
+Opcode	Operation;
+00000	Addition,
+00001	Subtraction,
+00010	Multiplication,
+00011	Division,
+00100	Increment,
+00101	Decrement,
+00110	AND,
+00111	OR,
+01000	XOR,
+01001	NOT,
+01010	Logical Shift Left,
+01011	Logical Shift Right,
+01100	Arithmetic Shift Right,
+01101	Rotate Left,
+01110	Rotate Right,
+10001	FFT,
+10010	Encryption,
+10011	Decryption.
 
 >Key Points:
 Supports 19-bit wide data for both inputs and outputs.
